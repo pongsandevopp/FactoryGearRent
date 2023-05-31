@@ -306,12 +306,12 @@ return [
             'type' => 'sidebar-menu-search',
             'text' => 'search',
         ],
-        [
-            'text' => 'Pages',
-            'url' => 'admin/pages',
-            'icon' => 'file',
-            'can' => 'add-blog-post'
-        ],
+        // [
+        //     'text' => 'Pages',
+        //     'url' => 'admin/pages',
+        //     'icon' => 'file',
+        // ],
+        ['header' => 'MAIN MENU'],
         [
             'text'        => 'Dashboard',
             'url'         => 'Dashboard',
@@ -319,10 +319,15 @@ return [
             'icon'        => 'fas fa-fw fa-tachometer-alt',
         ],
         [
+            'header' => 'MANAGEMENT',
+            'can'  => 'access-admin',
+        ],
+        [
             'text'        => 'Item',
             'url'         => 'Item',
             'active' => ['Item', 'content', 'content*', 'regex:@^content/[0-9]+$@'],
             'icon'        => 'fas fa-fw fa-boxes',
+            'can'  => 'access-admin',
         ],
         [
             'text'        => 'Users',
@@ -331,6 +336,7 @@ return [
             'icon'        => 'fas fa-fw fa-user-cog',
             // 'label'       => 4,
             'label_color' => 'success',
+            'can'  => 'access-admin',
         ],
         // ['header' => 'account_settings'],
         // [
