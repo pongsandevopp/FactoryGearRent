@@ -1,6 +1,6 @@
 @extends('adminlte::page')
 
-@section('title', 'EquipManage')
+@section('title', 'FactoryGearRent')
 
 
 @section('css')
