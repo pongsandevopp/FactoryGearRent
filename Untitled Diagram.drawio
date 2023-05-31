@@ -1,0 +1,90 @@
+<mxfile host="Electron" modified="2023-05-31T01:56:29.329Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="O6jEKUySdSKRkUbKI3tS" version="21.2.8" type="device">
+  <diagram name="Page-1" id="X3zhOaLAeFvc4983cE8Z">
+    <mxGraphModel dx="1468" dy="955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zCYJyOCuhAw_izX53FIy-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-1" target="zCYJyOCuhAw_izX53FIy-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-1" value="Start" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-2" target="zCYJyOCuhAw_izX53FIy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-2" target="zCYJyOCuhAw_izX53FIy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-2" value="login &amp;amp; role" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="319" y="160" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-5" target="zCYJyOCuhAw_izX53FIy-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-5" target="zCYJyOCuhAw_izX53FIy-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-5" value="Manage system" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-9" target="zCYJyOCuhAw_izX53FIy-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-9" value="เบิกอุปกรณ์" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-14" target="zCYJyOCuhAw_izX53FIy-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-14" value="คืนอุปกรณ์" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-18" target="zCYJyOCuhAw_izX53FIy-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-18" target="zCYJyOCuhAw_izX53FIy-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-24" value="อุปกรณ์ไม่ครบ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rounded=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" connectable="0" parent="zCYJyOCuhAw_izX53FIy-23">
+          <mxGeometry x="0.0566" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-18" value="ตรวจสอบ" style="rhombus;whiteSpace=wrap;html=1;rounded=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="319" y="545" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-19" target="zCYJyOCuhAw_izX53FIy-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-19" value="อุปกรณ์ครบปิดใบงานได้" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-22" target="zCYJyOCuhAw_izX53FIy-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-22" value="ตรวจสอบประเภทอุปกรณ์" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="zCYJyOCuhAw_izX53FIy-25" target="zCYJyOCuhAw_izX53FIy-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-25" value="ทำใบหักค่าใช้จ่ายกรณีอุปกรณ์หาย" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="705" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-27" value="STOP" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="299" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;ข้อมูลที่ต้องการ&lt;/b&gt;&lt;br&gt;- ITEM : บาร์โค้ด,ชื่ออุปกรณ์,คำอธิบาย,จำนวน,ราคาต่อหน่วย,ประเภทของอุปกรณ์&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="380" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-31" value="เพิ่มอุปกรณ์" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zCYJyOCuhAw_izX53FIy-32" value="เพิ่มผู้ใช้งาน &amp;amp; คนเบิก" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
