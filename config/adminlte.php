@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'EquipManage',
+    'title' => 'FactoryGearRent',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,7 +63,7 @@ return [
     |
     */
 
-    'logo' => '<b>Equip</b>Manage',
+    'logo' => '<b>FactoryGearRent</b>4U',
     'logo_img' => 'vendor/adminlte/dist/img/AdminLTELogo.png',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
