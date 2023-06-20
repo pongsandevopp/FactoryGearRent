@@ -24,9 +24,9 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($items as $item)
+                    @foreach ($items as $index => $item)
                         <tr>
-                            <td></td>
+                            <td>{{ $index+1 }}</td>
                             <td>{{ $item->name }}</td>
                             <td>{{ $item->quantity }}</td>
                             <td>{{ $item->price }}</td>

@@ -18,16 +18,18 @@
                         <th>Name</th>
                         <th>Username</th>
                         <th>Email</th>
+                        <th>Role</th>
                         <th>Options</th>
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach ($users as $user)
+                    @foreach ($users as $index => $user)
                         <tr>
-                            <td></td>
+                            <td>{{ $index+1 }}</td>
                             <td>{{ $user->name }}</td>
                             <td>{{ $user->username }}</td>
                             <td>{{ $user->email }}</td>
+                            <td>{{ $user->role }}</td>
                             <td>
                                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                                     Action
