@@ -46,6 +46,7 @@
 
     </div>
 @stop
+@section('plugins.Datatables', true)
 @section('js')
     {{-- <script> console.log('Hi!'); </script> --}}
     <script>

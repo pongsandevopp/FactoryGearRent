@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Item;
 use Illuminate\Http\Request;
+use App\Models\Rental;
+use Illuminate\Support\Facades\Auth;
 
 class RentalController extends Controller
 {
@@ -16,7 +19,10 @@ class RentalController extends Controller
      */
     public function index()
     {
-        //
+        $rentals = Rental::all();
+        $items = Item::all();
+        $username = Auth::user();
+        return view('layouts.rentals.index', compact('rentals','username','items'));
     }
 
     /**

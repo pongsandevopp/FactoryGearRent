@@ -596,6 +596,7 @@
         <!-- /.row (main row) -->
     </div><!-- /.container-fluid -->
 @stop
+@section('plugins.Chartjs', true)
 @section('css')
     <link rel="stylesheet" href="dist/css/adminlte.css">
     <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">

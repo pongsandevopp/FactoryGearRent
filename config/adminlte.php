@@ -330,6 +330,13 @@ return [
             'can'  => 'access-admin',
         ],
         [
+            'text'        => 'Rentals',
+            'url'         => 'Rentals',
+            'active' => ['Rentals', 'content', 'content*', 'regex:@^content/[0-9]+$@'],
+            'icon'        => 'fas fa-fw fa-boxes',
+            'can'  => 'access-admin',
+        ],
+        [
             'text'        => 'Users',
             'url'         => 'Users',
             'active' => ['Users', 'content', 'content*', 'regex:@^content/[0-9]+$@'],
@@ -451,77 +458,62 @@ return [
                 [
                     'type' => 'css',
                     'asset' => false,
-                    'location' => '../plugins/datatables-bs4/css/dataTables.bootstrap4.min.css',
+                    'location' => '../vendor/datatables/css/dataTables.bootstrap4.min.css',
                 ],
                 [
                     'type' => 'css',
                     'asset' => false,
-                    'location' => '../plugins/datatables-responsive/css/responsive.bootstrap4.min.css',
+                    'location' => '../vendor/datatables-plugins/responsive/css/responsive.bootstrap4.min.css',
                 ],
                 [
                     'type' => 'css',
                     'asset' => false,
-                    'location' => '../plugins/datatables-buttons/css/buttons.bootstrap4.min.css',
+                    'location' => '../vendor/datatables-plugins/buttons/css/buttons.bootstrap4.min.css',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables/jquery.dataTables.min.js',
+                    'location' => '../vendor/datatables/js/jquery.dataTables.min.js',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables-bs4/js/dataTables.bootstrap4.min.js',
+                    'location' => '../vendor/datatables/js/dataTables.bootstrap4.min.js',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables-responsive/js/dataTables.responsive.min.js',
+                    'location' => '../vendor/datatables-plugins/responsive/js/dataTables.responsive.min.js',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables-responsive/js/responsive.bootstrap4.min.js',
+                    'location' => '../vendor/datatables-plugins/responsive/js/responsive.bootstrap4.min.js',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables-buttons/js/dataTables.buttons.min.js',
+                    'location' => '../vendor/datatables-plugins/buttons/js/dataTables.buttons.min.js',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables-buttons/js/buttons.bootstrap4.min.js',
+                    'location' => '../vendor/datatables-plugins/buttons/js/buttons.bootstrap4.min.js',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables-buttons/js/buttons.html5.min.js',
+                    'location' => '../vendor/datatables-plugins/buttons/js/buttons.html5.min.js',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables-buttons/js/buttons.print.min.js',
+                    'location' => '../vendor/datatables-plugins/buttons/js/buttons.print.min.js',
                 ],
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/datatables-buttons/js/buttons.colVis.min.js',
-                ],
-            ],
-        ],
-        'Select2' => [
-            'active' => false,
-            'files' => [
-                [
-                    'type' => 'js',
-                    'asset' => false,
-                    'location' => '../plugins/select2/js/select2.min.js',
-                ],
-                [
-                    'type' => 'css',
-                    'asset' => false,
-                    'location' => '../plugins/select2/css/select2.css',
+                    'location' => '../vendor/datatables-plugins/buttons/js/buttons.colVis.min.js',
                 ],
             ],
         ],
@@ -531,7 +523,7 @@ return [
                 [
                     'type' => 'js',
                     'asset' => false,
-                    'location' => '../plugins/Chart.js/Chart.bundle.min.js',
+                    'location' => '../vendor/chart.js/Chart.bundle.min.js',
                 ],
             ],
         ],
@@ -557,6 +549,26 @@ return [
                     'type' => 'js',
                     'asset' => false,
                     'location' => '//cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js',
+                ],
+            ],
+        ],
+        'Select2' => [
+            'active' => false,
+            'files' => [
+                [
+                    'type' => 'js',
+                    'asset' => false,
+                    'location' => '../vendor/select2/js/select2.full.min.js',
+                ],
+                [
+                    'type' => 'css',
+                    'asset' => false,
+                    'location' => '../vendor/select2/css/select2.min.css',
+                ],
+                [
+                    'type' => 'css',
+                    'asset' => false,
+                    'location' => '../vendor/select2-bootstrap4-theme/select2-bootstrap4.min.css',
                 ],
             ],
         ],
