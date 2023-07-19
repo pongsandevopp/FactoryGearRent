@@ -82,17 +82,11 @@
                             <div class="form-group row">
                                 <label for="itemName" class="col-sm-2 col-form-label">Item Name</label>
                                 <div class="col-sm-10">
-                                    <select class="select2" multiple="multiple"  name="itemName" id="itemName" data-placeholder="Select a Item">
-                                        {{-- @foreach ($items as $item)
-                                            <option>{{ $item->name }}</option>
-                                        @endforeach --}}
-                                        <option>Alabama</option>
-                                        <option>Alaska</option>
-                                        <option>California</option>
-                                        <option>Delaware</option>
-                                        <option>Tennessee</option>
-                                        <option>Texas</option>
-                                        <option>Washington</option>
+                                    <select class="select2 form-control"   name="itemName" id="itemName" data-placeholder="Select a Item">
+                                        <option value="" selected>Please select</option>
+                                        @foreach ($items as $item)
+                                            <option value="{{ $item->name }}">{{ $item->name }}</option>
+                                        @endforeach
                                     </select>
                                 </div>
                             </div>
